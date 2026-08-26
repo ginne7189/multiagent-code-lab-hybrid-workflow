@@ -1,7 +1,7 @@
 .PHONY: install run check
 
 install:
-	python -m pip install -e ".[dev]"
+	python -m pip install -e .
 
 run:
 	python main.py

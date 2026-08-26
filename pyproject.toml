@@ -7,8 +7,5 @@ name = "multiagent-code-lab-hybrid-workflow"
 version = "0.1.0"
 requires-python = ">=3.11"
 
-[project.optional-dependencies]
-dev = ["pytest>=8"]
-
 [tool.setuptools.packages.find]
 where = ["src"]
