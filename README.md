@@ -4,7 +4,8 @@ Routing, Parallelization, Result Contract, Evaluator 반복과 사람 확인을 
 
 ```bash
 make install
-make run
+make run-normal
+make run-failure
 make check
 ```
 
