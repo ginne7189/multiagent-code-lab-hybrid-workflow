@@ -1,10 +1,10 @@
 .PHONY: install run check
 
 install:
-	python -m pip install -e .
+	python3 -m pip install -e .
 
 run:
-	python main.py
+	PYTHONPATH=src python3 main.py
 
 check:
-	python -m unittest discover -s tests -v
+	PYTHONPATH=src python3 -m unittest discover -s tests -v
